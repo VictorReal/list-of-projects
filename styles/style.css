@@ -50,3 +50,25 @@ main {
  li {
     list-style-type: none;
  }
+ @media (max-width: 750px){
+  #git_btn, #cv_btn {
+    width: 22vw;
+  }
+}
+
+@media (min-width: 3500px) {
+  main { 
+    height: 17vh;
+    width: 40vw; 
+    padding: 100px 0px;
+  } 
+  .quote-container{
+    height: 17vh;
+    width: 38vw;  
+    font-size: 46px; 
+  }
+  main, #part1, #part2, #git_btn, #cv_btn {
+    font-size: 48px;
+    padding-bottom: 80px;
+  }
+}
